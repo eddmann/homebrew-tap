@@ -13,6 +13,8 @@ cask "claudemeter" do
 
   zap trash: [
     "~/Library/Preferences/com.eddmann.ClaudeMeter.plist",
+    "~/Library/Application Support/com.claudemeter",
+    "~/Library/Containers/com.eddmann.ClaudeMeter",
     "~/.claudemeter"
   ]
 end
