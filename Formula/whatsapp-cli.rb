@@ -1,17 +1,17 @@
 class WhatsappCli < Formula
   desc "WhatsApp from your terminal"
   homepage "https://github.com/eddmann/whatsapp-cli"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/eddmann/whatsapp-cli/releases/download/v#{version}/whatsapp-macos-arm64"
-      sha256 "75c65a81ed1aaaa4f01b7bde02054bc9cdce23e71b097f5f5a757a93e3de9415"
+      sha256 "dc7425206b25bfe2579d7ad8f9c88e55b7fc6c66734a83e41fa77d6d528235e9"
     end
     on_intel do
       url "https://github.com/eddmann/whatsapp-cli/releases/download/v#{version}/whatsapp-macos-x64"
-      sha256 "5ed36ebc1b14eddc2667f6c728d897cdfca66662c45b1d8163a3c9d7360d7184"
+      sha256 "6f8ba7cf81ce0b86456721efb4e845755a6a05e45ff2516f82bee12e4ac8077d"
     end
   end
 
