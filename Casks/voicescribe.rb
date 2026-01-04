@@ -1,6 +1,6 @@
 cask "voicescribe" do
-  version "1.0.1"
-  sha256 "38a086d9e00655c04852d3b4a6b43e799e60a1f5493c1b629f8fc14b4e532bc1"
+  version "1.1.0"
+  sha256 "95f83bc4fcbf8f8ad2e3f4761f6abf221c07dbcc6fb9814f629821f029242f2b"
 
   url "https://github.com/eddmann/VoiceScribe/releases/download/v#{version}/VoiceScribe-#{version}.zip"
   name "VoiceScribe"
