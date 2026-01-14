@@ -1,9 +1,9 @@
 cask "santa-lang-workbench" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.1.1"
-  sha256 arm:   "97f5c1857bfe5ba8991882dd134d8dffe9c451aafbad245f7d44c0ae3e87bf4f",
-         intel: "72b64d47e392bd27ba75048b2a5b7dcdf0b48076c686e0947c6e175224f13cd9"
+  version "0.1.2"
+  sha256 arm:   "740c365a5a430f04d4bb4fb99ab7bf550f7f91909a49724266f15f54cba6af99",
+         intel: "3e1bebb421adfd8c13c8ad0ba8c52278d1016b498f6ba8210d61ad595d7fc293"
 
   url "https://github.com/eddmann/santa-lang-workbench/releases/download/#{version}/santa-lang-workbench-#{version}-macos-#{arch}.dmg"
   name "santa-lang Workbench"
