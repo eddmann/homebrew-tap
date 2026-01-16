@@ -22,7 +22,9 @@ brew tap eddmann/tap
 
 | Formula                                                             | Description                                       | Install                                       |
 | ------------------------------------------------------------------- | ------------------------------------------------- | --------------------------------------------- |
+| [buns](https://github.com/eddmann/buns)                             | Run TypeScript scripts with inline dependencies   | `brew install eddmann/tap/buns`               |
 | [garmin-connect-cli](https://github.com/eddmann/garmin-connect-cli) | Garmin Connect from your terminal                 | `brew install eddmann/tap/garmin-connect-cli` |
+| [phpx](https://github.com/eddmann/phpx)                             | Run PHP scripts with inline dependencies          | `brew install eddmann/tap/phpx`               |
 | [strava-cli](https://github.com/eddmann/strava-cli)                 | Strava from your terminal                         | `brew install eddmann/tap/strava-cli`         |
 | [turbo-png](https://github.com/eddmann/turbo-png)                   | High-performance PNG optimization and compression | `brew install eddmann/tap/turbo-png`          |
 | [whatsapp-cli](https://github.com/eddmann/whatsapp-cli)             | WhatsApp from your terminal                       | `brew install eddmann/tap/whatsapp-cli`       |
