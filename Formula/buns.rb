@@ -1,17 +1,17 @@
 class Buns < Formula
   desc "Run TypeScript scripts with inline dependencies"
   homepage "https://github.com/eddmann/buns"
-  version "0.0.1"
+  version "0.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/eddmann/buns/releases/download/v#{version}/buns-macos-arm64"
-      sha256 "d66e357dc925da3d94a947c873978427ee8db2e66877d77902426d8aaa733da8"
+      sha256 "2e7ae79a0ec474ca93d325d8b5e75a36da1486103aa9bd7d367be1c773b1b218"
     end
     on_intel do
       url "https://github.com/eddmann/buns/releases/download/v#{version}/buns-macos-x64"
-      sha256 "caebbbe9501c3a2b02259a1111a50baed08d6893c5f79077978cb9401dad75e1"
+      sha256 "a28f28fafa60c893179fad063f20a2651a679d05dec79c2df555f7ba79b18d81"
     end
   end
 
