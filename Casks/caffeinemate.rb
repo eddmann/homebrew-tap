@@ -1,6 +1,6 @@
 cask "caffeinemate" do
-  version "1.0.1"
-  sha256 "dc48d9bfe72410f3915081f4e6207401dc401cd8ecade53a4ff3cc95acc2e054"
+  version "1.0.2"
+  sha256 "b6618cf89edd936b78c85d6f869037bfb33474725f9da924d574cfa8b48d2d12"
 
   url "https://github.com/eddmann/CaffeineMate/releases/download/v#{version}/CaffeineMate-#{version}.zip"
   name "CaffeineMate"
