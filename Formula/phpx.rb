@@ -1,17 +1,17 @@
 class Phpx < Formula
   desc "Run PHP scripts with inline dependencies"
   homepage "https://github.com/eddmann/phpx"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/eddmann/phpx/releases/download/v#{version}/phpx-macos-arm64"
-      sha256 "2e4fd817159b97559340286570e64af0dc64697c03a1b494208f409a1813b340"
+      sha256 "f438b7e7fc9cd45522b10190dd77f74602e7d0c930c06db1fd8866a17f29033b"
     end
     on_intel do
       url "https://github.com/eddmann/phpx/releases/download/v#{version}/phpx-macos-x64"
-      sha256 "50f9812e90f41579c7472f67802711a539fbeb3853d2dd62f02e507e7f21ed02"
+      sha256 "570c41b264b7a8728f3e242927332e4538b7092e9972a0c8bd74630946d1c62f"
     end
   end
 
