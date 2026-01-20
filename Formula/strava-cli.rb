@@ -1,17 +1,17 @@
 class StravaCli < Formula
   desc "Strava from your terminal"
   homepage "https://github.com/eddmann/strava-cli"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/eddmann/strava-cli/releases/download/v#{version}/strava-macos-arm64"
-      sha256 "196789ad4674a82e79687be26b34c3b4fedb75a7766558f495b4ed19d6f7aefc"
+      sha256 "d3b27f9d194141cb2ad3549b91ed8a3edbb219ed0a0c50cc0fb77ed543c51f56"
     end
     on_intel do
       url "https://github.com/eddmann/strava-cli/releases/download/v#{version}/strava-macos-x64"
-      sha256 "f43c63f72f1b0bd7ca6683e6747a456da3dd30f0e0546afc51cb8668436da119"
+      sha256 "1f6b55f1e32a2a8534b06dc84686ae9d96ee8cf902fc2c3ba651ded25b6fc14b"
     end
   end
 
