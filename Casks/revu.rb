@@ -13,6 +13,7 @@ cask "revu" do
   depends_on macos: ">= :monterey"
 
   app "revu.app"
+  binary "#{appdir}/revu.app/Contents/MacOS/revu"
 
   zap trash: [
     "~/Library/Preferences/com.revu.app.plist",
