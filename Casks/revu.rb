@@ -1,9 +1,9 @@
 cask "revu" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.1.2"
-  sha256 arm:   "6364ce7a2a637e360920088b77bf02ca734e010be06793602ea8fd7adaaba961",
-         intel: "9a5f5dfd314d9c517c4eed36a2789eb87a4d527b28ad4d428ea0e3ebdc3fcb4f"
+  version "0.1.3"
+  sha256 arm:   "312e590c5b79f40b188c38381a19725c8e20ad31d208125f7e70bb73aab02d6f",
+         intel: "dc23b6951431bb26ccf25a4bf1f2e207d42de839c4feee80260b068a10794be1"
 
   url "https://github.com/eddmann/revu/releases/download/v#{version}/revu-#{version}-macos-#{arch}.dmg"
   name "revu"
