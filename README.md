@@ -15,6 +15,7 @@ brew tap eddmann/tap
 | [CaffeineMate](https://github.com/eddmann/CaffeineMate) | Keep your Mac awake from the menu bar                                 | `brew install eddmann/tap/caffeinemate` |
 | [ClaudeMeter](https://github.com/eddmann/ClaudeMeter)   | macOS menu bar app for monitoring Claude.ai plan usage                | `brew install eddmann/tap/claudemeter`  |
 | [ClipVault](https://github.com/eddmann/ClipVault)       | Secure, privacy-focused clipboard manager with AES-256-GCM encryption | `brew install eddmann/tap/clipvault`    |
+| [Marginalia](https://github.com/eddmann/Marginalia)     | Desktop ebook reader with a built-in AI companion                     | `brew install eddmann/tap/marginalia`   |
 | [revu](https://github.com/eddmann/revu)                 | Desktop Git diff reviewer for AI coding agents                        | `brew install eddmann/tap/revu`         |
 | [santa-lang Workbench](https://github.com/eddmann/santa-lang-workbench) | Desktop IDE for santa-lang                                            | `brew install eddmann/tap/santa-lang-workbench` |
 | [VoiceScribe](https://github.com/eddmann/VoiceScribe)   | Voice transcription with WhisperKit and OpenAI                        | `brew install eddmann/tap/voicescribe`  |
