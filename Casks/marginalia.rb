@@ -1,9 +1,9 @@
 cask "marginalia" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.0.1"
-  sha256 arm:   "18a541b906e1bbb1c680f99206d3f2564f5f47ce4cec4d44d9fceb39596ed7b8",
-         intel: "b0665260b8f42f87e8ae9faf32818aaf496fb034a3f2032aae48ac1f3db35c24"
+  version "0.0.2"
+  sha256 arm:   "84ca6dda1eef15ad9a0be9afd18b0a448a7fef6e47c4a663c7b172572bf0a601",
+         intel: "392ec03e2e816d701342fc87b6017bc86f54143ea979e3bea55a26295e20790e"
 
   url "https://github.com/eddmann/Marginalia/releases/download/v#{version}/marginalia-#{version}-macos-#{arch}.dmg"
   name "Marginalia"
