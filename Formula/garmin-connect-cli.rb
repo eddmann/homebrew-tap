@@ -1,17 +1,17 @@
 class GarminConnectCli < Formula
   desc "Garmin Connect from your terminal"
   homepage "https://github.com/eddmann/garmin-connect-cli"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/eddmann/garmin-connect-cli/releases/download/v#{version}/garmin-connect-macos-arm64"
-      sha256 "0609c852d46f93f688407dff2418c4b0253467bd3fc78ad56ca4d91ec2807393"
+      sha256 "4e0855f8585a57fc8dd1fb85195ff996a2858b4f0537307ad049ed0664518998"
     end
     on_intel do
       url "https://github.com/eddmann/garmin-connect-cli/releases/download/v#{version}/garmin-connect-macos-x64"
-      sha256 "8151fe1d03c595c94d3286a41856b8170c296b4549caa963bdb878aba3973d67"
+      sha256 "672afc1559c0bdfa9ff7af9e2adf226e75ed98c58a3baf552cd10cc8d6328970"
     end
   end
 
