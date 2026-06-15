@@ -10,7 +10,7 @@ cask "marginalia" do
   desc "A desktop ebook reader with a built-in AI companion"
   homepage "https://github.com/eddmann/Marginalia"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Marginalia.app"
   binary "#{appdir}/Marginalia.app/Contents/MacOS/marginalia"

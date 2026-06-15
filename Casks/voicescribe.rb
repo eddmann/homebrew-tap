@@ -7,7 +7,7 @@ cask "voicescribe" do
   desc "Voice transcription with WhisperKit and OpenAI"
   homepage "https://github.com/eddmann/VoiceScribe"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "VoiceScribe.app"
 

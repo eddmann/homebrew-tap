@@ -7,7 +7,7 @@ cask "clipvault" do
   desc "Secure, privacy-focused clipboard manager with AES-256-GCM encryption"
   homepage "https://github.com/eddmann/ClipVault"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "ClipVault.app"
 

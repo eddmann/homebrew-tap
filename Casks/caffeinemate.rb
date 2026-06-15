@@ -7,7 +7,7 @@ cask "caffeinemate" do
   desc "Keep your Mac awake from the menu bar"
   homepage "https://github.com/eddmann/CaffeineMate"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "CaffeineMate.app"
 
