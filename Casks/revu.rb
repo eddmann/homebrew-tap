@@ -10,7 +10,7 @@ cask "revu" do
   desc "Desktop Git diff reviewer for AI coding agents"
   homepage "https://github.com/eddmann/revu"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "revu.app"
   binary "#{appdir}/revu.app/Contents/MacOS/revu"

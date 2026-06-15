@@ -10,7 +10,7 @@ cask "santa-lang-workbench" do
   desc "Desktop IDE for santa-lang, a functional language for Advent of Code"
   homepage "https://github.com/eddmann/santa-lang-workbench"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "santa-lang Workbench.app"
 
